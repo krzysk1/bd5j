@@ -11,7 +11,7 @@
                 <[string8][GearPosition][GearInput.Output]>
                 <[string8][FlapPosition][FlapsInput.Output]>
                 <[tmvector2d][FlapPositions][ (0.0 0.00) (0.50 0.10) (1.00 0.25) ]>
-                <[tmvector3d][LookAtPosition][ 0.2 0.0 0.0 ]> //  mass: 220.2 ( 0.158 0.000 -0.167 )
+                <[tmvector3d][LookAtPosition][ 0.2 0.0 0.0 ]> 
             >
 
             // Cameras
@@ -59,7 +59,7 @@
             >
 
             // Rigidbodies
-
+			// mass: 220.2 ( 0.158 0.000 -0.167 )
             <[rigidbody][Fuselage][]
                 <[float64][Mass][256.0]>
                 <[tmvector3d][InertiaLength][3.383279 0.606297 0.883380]>
