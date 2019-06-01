@@ -53,7 +53,7 @@
             <[rigidbody][Fuselage][]
                 <[float64][Mass][156.0]>
                 <[tmvector3d][InertiaLength][3.383279 0.606297 0.883380]>
-                <[tmvector3d][R0][0.0 0.0 -0.071708]>
+                <[tmvector3d][R0][0.05 0.0 -0.071708]>
                 <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[rigidbody][LeftWing][]
@@ -130,8 +130,8 @@
             <[rigidbody][FrontGearUpper][]
                 <[float64][Mass][1.0]>
                 <[tmvector3d][InertiaLength][ 0.1 0.1 0.1 ]>
-                <[tmvector3d][R0][ 1.4678 0.0 -0.029871 ]>
-                <[tmmatrix3d][B0][ 0.965926 0.0 0.258819 0.0 1.0 0.0 -0.258819 0.0 0.965926]>
+                <[tmvector3d][R0][ 1.4678 0.0 -0.229871 ]>
+                <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[product][ServoGearFront][]
                 <[string8][Inputs][ ServoGear.Output 1.0483 ]>
@@ -150,8 +150,8 @@
             <[rigidbody][FrontGearMiddle][]
                 <[float64][Mass][1.0]>
                 <[tmvector3d][InertiaLength][  0.1 0.1 0.1 ]>
-                <[tmvector3d][R0][1.4678 0.0 -0.129871]>
-                <[tmmatrix3d][B0][0.965926 0.0 0.258819 0.0 1.0 0.0 -0.258819 0.0 0.965926]>
+                <[tmvector3d][R0][1.4678 0.0 -0.329871]>
+                <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[multibody_joint][JointFrontGearUpperFrontGearMiddle][]
                 <[string8][Body0][FrontGearUpper]>
@@ -167,8 +167,8 @@
             <[rigidbody][FrontGear][]
                 <[float64][Mass][3.8]>
                 <[tmvector3d][InertiaLength][ 0.164592 0.054864 0.295656 ]>
-                <[tmvector3d][R0][1.529491 0.0 -0.493189]>
-                <[tmmatrix3d][B0][0.965926 0.0 0.258819 0.0 1.0 0.0 -0.258819 0.0 0.965926]>
+                <[tmvector3d][R0][1.4078 0.0 -0.573189]>
+                <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[multibody_joint][JointFrontGearMiddleFrontGear][]
                 <[string8][Body0][FrontGearMiddle]>
@@ -182,7 +182,7 @@
             <[rigidbody][LeftGear][]
                 <[float64][Mass][5.8]>
                 <[tmvector3d][InertiaLength][ 0.164592 0.054864 0.295656 ]>
-                <[tmvector3d][R0][-0.074963 0.4276 -0.514227]>
+                <[tmvector3d][R0][-0.1282 0.4276 -0.594227]>
                 <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[jointlinear][JointFuselageLeftGear][]
@@ -208,7 +208,7 @@
             <[rigidbody][RightGear][]
                 <[float64][Mass][5.8]>
                 <[tmvector3d][InertiaLength][ 0.164592 0.054864 0.295656 ]>
-                <[tmvector3d][R0][-0.074963 -0.4276 -0.514227]>
+                <[tmvector3d][R0][-0.1282 -0.4276 -0.594227]>
                 <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[jointlinear][JointFuselageRightGear][]
@@ -793,7 +793,7 @@
                 <[tmvector3d][R0][1.366 0.0 -0.6449]>
                 <[tmvector3d][X0][1.0 0.0 0.0]>
                 <[float64][Cd][2.0]>
-                <[float64][Area][0.1]>
+                <[float64][Area][0.03]>
                 <[string8][Control][ServoGearSequence.Output]>
             >
             <[airbrake][LeftGearAirbrake][]
@@ -801,7 +801,7 @@
                 <[tmvector3d][R0][-0.1282 0.4431 -0.6671]>
                 <[tmvector3d][X0][1.0 0.0 0.0]>
                 <[float64][Cd][2.0]>
-                <[float64][Area][0.08]>
+                <[float64][Area][0.02]>
                 <[string8][Control][ServoGearSequence.Output]>
             >
             <[airbrake][RightGearAirbrake][]
@@ -809,7 +809,7 @@
                 <[tmvector3d][R0][-0.1282 -0.4431 -0.6671]>
                 <[tmvector3d][X0][1.0 0.0 0.0]>
                 <[float64][Cd][2.0]>
-                <[float64][Area][0.08]>
+                <[float64][Area][0.02]>
                 <[string8][Control][ServoGearSequence.Output]>
             >
 
