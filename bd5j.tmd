@@ -1468,7 +1468,7 @@
 
             //DX=-0.525 DY=0 DZ=-0.0435
             <[graphics_human][Pilot][]
-                <[string8][GeometryList][ PilotBody ]>
+                <[string8][GeometryList][ PilotBody PilotHead ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][ShowInside][12]>
